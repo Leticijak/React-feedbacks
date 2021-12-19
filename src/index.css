@@ -8,7 +8,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #202142;
+  background-color: #162b29;
   color: #fff;
   line-height: 1.6;
 }
@@ -33,16 +33,16 @@ header {
 }
 
 .card {
-  background-color: #fff;
+  background-color: #ffe8e2;
   color: #333;
-  border-radius: 15px;
+  border-radius: 12px;
   padding: 40px 50px;
   margin: 20px 0;
   position: relative;
 }
 
 .card.reverse {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #162b29;
   color: #fff;
 }
 
@@ -87,8 +87,9 @@ header {
 
 .rating li:hover,
 .num-display {
-  background: #ff6a95;
-  color: #fff;
+  background: #fbda57;
+  color: #000;
+  border: none;
 }
 
 [type="radio"] {
@@ -116,6 +117,14 @@ input {
 
 input:focus {
   outline: none;
+}
+input:placeholder-shown {
+  border-radius: 5px;
+  background-color: #f8bd9e;
+  padding: 0 10px;
+  margin: 0 10px;
+  border: none;
+  color: #162b29;
 }
 
 .feedback-stats {
@@ -156,11 +165,15 @@ input:focus {
 }
 
 .btn-primary {
-  background-color: #202142;
+  background-color: #216a61;
+  color: #fff;
+  font-weight: bold;
 }
 
 .btn-secondary {
-  background: #ff6a95;
+  background: #fbda57;
+  color: #000;
+  font-weight: bold;
 }
 
 .btn:hover {
