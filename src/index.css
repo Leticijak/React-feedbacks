@@ -113,10 +113,22 @@ input {
   flex-grow: 2;
   border: none;
   font-size: 16px;
+  border-radius: 5px;
+  background-color: #f8bd9e;
+  padding: 0 10px;
+  margin: 0 10px;
+  border: none;
+  color: #162b29;
 }
 
 input:focus {
   outline: none;
+  border-radius: 5px;
+  background-color: #f8bd9e;
+  padding: 0 10px;
+  margin: 0 10px;
+  border: none;
+  color: #162b29;
 }
 input:placeholder-shown {
   border-radius: 5px;
@@ -182,8 +194,8 @@ input:placeholder-shown {
 }
 
 .btn:disabled {
-  background-color: #cccccc;
-  color: #333;
+  background-color: #e0e0e0;
+  color: rgb(145, 145, 145);
   cursor: auto;
 }
 
